@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="appicon" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-zZ-0aE">
-                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-zZ-0aE">
+                                <rect key="frame" x="151" y="230" width="112" height="436"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,7 +36,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="appicon" width="60" height="60"/>
+        <image name="launch_image" width="138" height="139"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

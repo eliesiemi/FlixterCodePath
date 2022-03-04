@@ -22,6 +22,9 @@
 		E75090DA27C9814C00C8EB74 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75090D927C9814C00C8EB74 /* MoviesViewController.swift */; };
 		E75090DC27C9946B00C8EB74 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75090DB27C9946B00C8EB74 /* MovieCell.swift */; };
 		E75090DF27C99D2800C8EB74 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = E75090DE27C99D2800C8EB74 /* AlamofireImage */; };
+		E78939B127D290A80075C3CE /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78939B027D290A80075C3CE /* MovieGridViewController.swift */; };
+		E78939B327D295660075C3CE /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78939B227D295660075C3CE /* MovieGridCell.swift */; };
+		E7CA363327CABA5800F90226 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CA363227CABA5700F90226 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		E75090C627C9784900C8EB74 /* FlixterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E75090D927C9814C00C8EB74 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		E75090DB27C9946B00C8EB74 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		E78939B027D290A80075C3CE /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		E78939B227D295660075C3CE /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		E7CA363227CABA5700F90226 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		E87445BD4F61EA844E1C12C8 /* Pods-Flixter-FlixterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixter-FlixterUITests.release.xcconfig"; path = "Target Support Files/Pods-Flixter-FlixterUITests/Pods-Flixter-FlixterUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +123,6 @@
 				2CCE2F64667DEBEC52281201 /* Pods-FlixterTests.debug.xcconfig */,
 				504E54D404A0600A0380DDED /* Pods-FlixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,11 +155,14 @@
 				E75090A527C9784900C8EB74 /* SceneDelegate.swift */,
 				E75090A727C9784900C8EB74 /* ViewController.swift */,
 				E75090A927C9784900C8EB74 /* Main.storyboard */,
+				E78939B227D295660075C3CE /* MovieGridCell.swift */,
+				E78939B027D290A80075C3CE /* MovieGridViewController.swift */,
 				E75090AC27C9784900C8EB74 /* Assets.xcassets */,
 				E75090AE27C9784900C8EB74 /* LaunchScreen.storyboard */,
 				E75090B127C9784900C8EB74 /* Info.plist */,
 				E75090D927C9814C00C8EB74 /* MoviesViewController.swift */,
 				E75090DB27C9946B00C8EB74 /* MovieCell.swift */,
+				E7CA363227CABA5700F90226 /* MovieDetailsViewController.swift */,
 			);
 			path = Flixter;
 			sourceTree = "<group>";
@@ -423,6 +431,9 @@
 			files = (
 				E75090A827C9784900C8EB74 /* ViewController.swift in Sources */,
 				E75090A427C9784900C8EB74 /* AppDelegate.swift in Sources */,
+				E7CA363327CABA5800F90226 /* MovieDetailsViewController.swift in Sources */,
+				E78939B127D290A80075C3CE /* MovieGridViewController.swift in Sources */,
+				E78939B327D295660075C3CE /* MovieGridCell.swift in Sources */,
 				E75090A627C9784900C8EB74 /* SceneDelegate.swift in Sources */,
 				E75090DC27C9946B00C8EB74 /* MovieCell.swift in Sources */,
 				E75090DA27C9814C00C8EB74 /* MoviesViewController.swift in Sources */,
